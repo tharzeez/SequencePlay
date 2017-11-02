@@ -11,8 +11,6 @@ import Foundation
 print("Hello, World!")
 
 struct SomeStruct: Sequence, IteratorProtocol {
-    typealias Element = (Int?, String?)
-    
     
     var count: Int
     var names : [String]
